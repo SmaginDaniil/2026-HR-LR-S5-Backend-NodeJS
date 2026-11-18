@@ -1,0 +1,15 @@
+{
+  "name": "network-http-assignment",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HTTP server assignment implemented in TypeScript",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test dist/tests",
+    "start": "node dist/src/server.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.30",
+    "typescript": "^5.8.3"
+  }
+}
