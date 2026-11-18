@@ -6,6 +6,7 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "test": "npm run build && node --test dist/tests",
+    "prestart": "npm run build",
     "start": "node dist/src/server.js"
   },
   "devDependencies": {
